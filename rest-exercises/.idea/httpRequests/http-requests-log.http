@@ -1,0 +1,117 @@
+GET http://localhost:8080/patient/2
+
+<> 2020-02-18T024018.200.json
+
+###
+
+GET http://localhost:8080/patient/1
+
+<> 2020-02-18T023921.200.json
+
+###
+
+POST http://localhost:8080/patient
+Content-Type: application/json
+{:
+  "firstName": "asdf",
+  "lastName": "asdf"
+}:
+
+<> 2020-02-18T023556.400.html
+
+###
+
+GET http://localhost:8080/patient/1
+
+###
+
+POST http://localhost:8080/patient
+Content-Type: application/json
+{:
+  "firstName": "asdf",
+  "lastName": "asdf"
+}:
+
+<> 2020-02-18T023527.400.html
+
+###
+
+POST http://localhost:8080/patient
+Content-Type: application/json
+{:
+  "firstName": "asdf",
+  "lastName": "asdf"
+}:
+
+<> 2020-02-18T023445.400.html
+
+###
+
+POST http://localhost:8080/patient
+Content-Type: application/json
+{:
+  "firstName": "asdf",
+  "lastName": "asdf"
+}:
+
+<> 2020-02-18T023333.400.html
+
+###
+
+POST http://localhost:8080/patient
+Content-Type: application/json
+{:
+  "firstName": "asdf",
+  "lastName": "asdf"
+}:
+
+<> 2020-02-18T023313.400.html
+
+###
+
+POST http://localhost:8080/patient
+Content-Type: application/json
+{:
+  "firstName": "asdf",
+  "lastName": "asdf"
+}:
+
+<> 2020-02-18T023235.400.html
+
+###
+
+GET http://localhost:8080/patient/1
+
+###
+
+POST http://localhost:8080/patient
+Content-Type: application/json
+{:
+  "firstName": "asdf",
+  "lastName": "asdf"
+}:
+
+<> 2020-02-18T023106.400.html
+
+###
+
+POST http://localhost:8080/patient
+Content-Type: application/json
+{:
+  "firstName": "",
+  "lastName": ""
+}:
+
+<> 2020-02-18T023037.400.html
+
+###
+
+POST http://localhost:8080/patient
+Content-Type: application/json
+{:
+  "firstName": "",
+  "lastName": ""
+}:
+
+###
+
